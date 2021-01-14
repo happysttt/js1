@@ -11,7 +11,7 @@ function solve() {
 	d2=d2*1;
 	h=h*1;
 	if(d1<=0 || d2<=0 || h<=0 || typeof(d1)!="number" || typeof(d2)!="number" || typeof(h)!="number" || isNaN(d1) || isNaN(d2) || isNaN(h)) alert("неверные данные")
-	elsealert(coneVolume(d1, d2, h));
+	else alert(coneVolume(d1, d2, h));
 }
 function coneVolume(d1,d2, h){
 	let r2=d2/2;
